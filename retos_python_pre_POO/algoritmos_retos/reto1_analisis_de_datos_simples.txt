@@ -1,0 +1,58 @@
+
+1. Crear una función que reciba la lista de ventas
+2. Inicializar un diccionario vacío para almacenar los resultados.
+3. Recorrer la lista de ventas con un bucle for.
+    En cada iteración:
+4. Extraer el usuario y el monto (el producto no se usa).
+5. Verificar si el usuario ya existe como clave en el diccionario:
+    Si no existe:
+6. Crear una nueva entrada para ese usuario con:
+    total = 0
+    contador de compras = 0
+
+7. Sumar el monto al total del usuario.
+
+8. Incrementar en 1 el contador de compras del usuario.
+
+9. Crear una nueva funcion en donde se filtraran los usuarios con gasto mayor a 500
+
+10 Crear una nueva lista vacía para los usuarios con gasto mayor a 500.
+
+11. Recorrer el diccionario de usuarios y sus datos.
+
+12. Para cada usuario:
+
+    Verificar si su total gastado es mayor a 500.
+
+    Si cumple la condición:
+
+13. Agregar el nombre del usuario a la lista.
+
+14. Ordenar la lista alfabéticamente.
+
+15. Guardar el resultado.
+
+16. Crear una nueva funcion en donde se obtendran los promedios de comprar por usuarios
+
+17. Crear un nuevo diccionario vacío para los promedios.
+
+18. Recorrer el diccionario principal de usuarios.
+
+19. Para cada usuario:
+        Obtener el total gastado.
+        Obtener el número de compras.
+
+20. Calcular el promedio:
+        total dividido entre número de compras.
+
+21. Guardar el promedio en el nuevo diccionario usando el usuario como clave.
+
+22. Redondear el promedio si es necesario.
+
+Devolver:
+
+el diccionario con totales y conteos
+
+la lista de usuarios que gastaron más de 500
+
+el diccionario de promedios por usuario
