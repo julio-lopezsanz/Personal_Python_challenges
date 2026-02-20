@@ -1,0 +1,25 @@
+1. Crear función principal para contar los login y logout
+
+2. inicializar diccionario vacío
+
+3. recorrer logs (usuario, acción)
+
+4. si el usuario no existe:
+    crear diccionario vacío para acciones
+    si la acción no existe para ese usuario:
+
+5. inicializar conteo en 0
+
+6. incrementar conteo de esa acción
+
+7. devolver diccionario de conteos
+
+8. crear función para sospechosos
+
+9. recorrer usuarios y sus acciones
+
+10 .obtener conteo de login
+
+11. verificar ausencia de logout
+
+12. devolver lista de usuarios sospechosos
